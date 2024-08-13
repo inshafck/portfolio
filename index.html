@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM0AAAD2CAMAAABC3/M1AAAAflBMVEX///8AAAC9vb3S0tJsbGw6Ojr19fXGxsaJiYn6+vrh4eHY2NhJSUnx8fHu7u6jo6ORkZHn5+ewsLB6enoiIiK1tbWXl5dUVFRCQkI0NDRkZGSioqLV1dUvLy/CwsIdHR1ZWVl/f38ODg5qamp7e3sLCwsnJycYGBhGRkZWVlbcp5+rAAANxklEQVR4nN1dCXeqOhAWN0CrKK6VWsW2evv//+ATszBZgASy0Ped8855t7UhnySzZTIzGNjDNHoPgsdxvNqNYouPcYPpLShxHicz3xPqhEPAYbsZLnxPqi12PJkX/iVT3xNrg5mUTIHfoe+5aWNeSabAZu57fjpYRrVknjjufM9RFTth/0ux+gM7qPm1lMiXvmdbj/VGnUuBqMfvZznW41Jg1VczYa/PpUDqe94yzLftyDytnv7ZPKu2XArsfc+exeKtC5kgmPTp9Yy6cSmQ+OZAITcwNXHyzQIjMUHmudp6oXtaCmYR2x6YBqkpMk94pxMaJBP8ePZNq52yVnj3SiZubQBUwKtka2FmNsCj1fZpnIxPSWCBTHD1RaaTpVmJ0A+ZqRUywd0PG40IgBa8hHMsvZoguPhgY8jYlGDkgc3EGhsPKtSwTcPAvW+QWWTjXg50jATUwv1Ss0gmCFyHDA0ENmrw4ZiNPflcwHUEJ7fKZuyYzT+rbFz7oA+rbALHbH7sslm7ZWOXjGMnx5oBjeH2FH5hmU3mlM3SMpvof8Umd8pmbZnN5n/Fxq0xUM3mtj3fH7fKXyvCrU8gYXON0s/ZFNnycTydhWl0urRlc/XJZjOsUt7zXd4m8n7wxea8b8rPmoar4994N6qpZtPRXsf3drtvlm2eGoeRatjqy9bEpSBszrp/OB1uVMxvt/qG2mlt/nj9uWpy9tyyoTZ02+hKPEvzmo3k1rKJyWM7JcjEi49hGm1Oh8n9Pvkdb1bp6I6GdWt1Um/NdAQcD7syPGwDyFY27FaRMJ3jHK+HnceSNBfHR9PEXDG8Xa92XnkT3vFjDSttYnx/mh22CUS6aqvPWlCDyfHB9Ik81+ioNG/P8WHhd1f1WT+q42sT9HjdaFSSGqWOs1b3Nr7FMuboNnK7/CLPNSlLy9Q9p+e4IJfTZFSyHDZzeFYI7XmTFtUVjOvMGngHDzXqJcJxXRme38xDDapPLqHCiQYlzzxm4WwxGhmUpVwy8tbcyNXYWPvmwiiK8ud/RF66OGc3r2ZEoG/MgZODDEPL8S6kRh2EOkZO5OePaXFZAaSvLXtT8f/q3axd7ZuZC9U2fD3ERZra60GWTyRQRr8LtwD50FatQhx7tPkIgpX9jfPpSgiQ0gFWs5Su7uy0wfn1LItxiLW7hUbSBv/ZewCyaxwF1qeWDXZspLsKdESmHRsWKHDzZmt4HvjlWFLVqTt3AGFvcS3gr8rlUeHNnpTGzqDL/G4c+LKQtvwROPE4WOCrkebvziJldjQ+bi2wJWXcBcUp8K5rEe2sKB2chuD2fL0AMqV/zA46di8CELAxZdT+wCfSPi4VWlA6Wx8iAONu+tmZWwONxciw0llYWLsaMKx0Tr5EAIJZpYPtC391/IwqHSQC3KanskBV7G4mhsIi0vHFGwbmlM7SrwhA2Juyq35f4zwMTKkL0GqfdB0GV/hwnCwkwIzSiVG629XEjDrBiNLJ/YsABOzHdwqx4MqrjpM5pcBKp4vvizaflwoWAg5d1xoWjD4KWIjAquK37d/j2Kbru9FVyLrJtYlfa1PAsYtIWvm2NnlgA6dVZBorrKvZGXUCXmttwq3oLz2USanBoa2YfuvbOitAMjJ1zc+8/Uu1CZKSqad1cGjTU1muGmDRdNYRtOQr8G+fCcBJme/qdMj1FN9+gAykPuRElQ4+3OhbPWUMcs/wXU3akjfTNwlAQDI+byr7gFyA8BmkqUV53bhZfZDi+H6CzioAGezj+tU2v/eezOAeANSYBYuya0GvDBoGXHL2tuIYZp2DD/mNn9UB6c/rCcxVOLyIh1yTj344nBJcsACAxbzvm3S0fC2neDobrsR+JUaivhaA9cdTd87P3JQv2+2WL9URYdI9VTdoayPvvrHW+nFOPVZPdW3rETNzi2v5TF6fIrZDH+Ua1u3033HCrzeCMdn5ONupL50IIJATyUjcWSZ2KctDYJS29lhtAysbwUIbFfUD3t7Px7dxlITcoiIVJHrn36Dgum40GuWk9873nLWUT/iEoS9xTgQswfTvZuGDm+DQn5YxtIBvi+1M28ydesFnWdaKb3VqWRZlPfjWo9PdLxC/7UJ8oEPDPfMn3aafbKuItlqQqdRzzHysuFkmlAtqOxRfw/AROV1y61Tav6PtHGT9Jg97J47Pejeuqu7WNhW/qhvgb/Zh0yCdZ9faOnXt3OLa1ibHKLTQpmQarhRKn7WpNdDc3OiySQ1mFC+HuWo1RP23o9pD6ysxcE1iPfy+Nz8KPFRv+JFWi4ZT0uUdjVZVDlc1zhr6b/3VPB6Hx+az1dn1SLPxKIVqNnPctkfLdadJKE46VBpXM+87NZ371jAY6kMUzXg0a75htydomNy7zlVqm2Tb2kTbDCX5uVDrn9yAS530MdTZ8NZsSnVeAgSVyWZLc41zmm62tBVkElS0uzXa2PCtzpCb6hbXrYfM0DHZcvKJS7UVtzbdMuEqKAbDZILq3nn1fe3bgRMGxnYlgJyOnUZQqfVHbGWWga1+CVDu6Jt9KrhK2FhrOFY+zFbjLDEZxHynTgqS32Cv9wevC4y0hK4CDk0Za24sgItIWG6ZguwCiw2A2HRfi+vshcIL/mj+WHtAuWZD0zAoloKd3qYYUBAYMZtrEdptngdfjt1OcC982e7NlEhfTfThud+2OuJZWgoWetgIulhM/gwVjJxOnViEZezEYsUdW6CyhTjWpR/gvUd9CxCLDKcflTKgv8liNaC+LFpq5UJzXQ3DDMjskadbmumep9USJLvvZdwCieZ7Xu1AxVqhQHd/nQ0NMxV+QSmxLdTacQGaR1qE84H51ItsCm3Q86XCZy/J9DMnsRF0+r9sqzHXvXWNoMw2uLD285/UnoAAGxC4+p5ZG4CA45oJPbjuFGwEgMAICugeXe7VADjV+Bwwx8J/0YYGxxoJ6627bn9uAmD6KzY07KPUV0fASGDEhux08mRmYZqmiVljaJE8xwy1TBJ47JCzPbvVE3mJU2TWGCJT01B8ITN9SEb9fh/dbZjN7DTGiKIsBSnp+de4xGk4iOn/F7+N8G9Pa5aNxkXDBEz/yrJRzWcuh8Bs+IjcgbixTAOTYiXTfVoQCOA/IBv1XGQYQX3jYnaKCqfcbBVsaCiVPRVKgP0+AmxILcaSjXIuPrhXFhy5XvdqCUzgGK6SDU4nFthQ1f0JWjeSEwuwpVUVOXzAZMBmoaj5BGUQ/rKuZHORs6F2YQbsd5J7vC6z+hTFSwzn/84dqqgtVzL3RPgJxFzKhn4TEfh/kPdBThMVFTmTfbwdsDmOaqIRz/0o/OS5G6a0189QZJOBx4+BdIWOFZYbignEzFnNbcAm0aopHDwLcBuQsgnL6SaQTXkxh/z6CFIh4NTHWmyYBIQbJ0LVfIKR8CIBGyoi9nI2xEr8ARIBbpKNFhuoboLHgMusURoirGNDDaeVnM13+SgaZYUCLNdiw2Q5XfhjNaXk8BRMV5sNfSFLeedGTFHxvgjsafaUAlD7BIqhaPz1gb0rYxPJ2dCtP6Prgjlo2YO/bgbjAtz5hDQVhUP2Ofj6NNhQDTmikTDmcjFRSErWOdW/L5zJ90zQ7BPsqGUEDIdGNo/DE6j+CPn9jmpuJs2QsP1ZKXhb7GWXyYBLSm5+wfSjUP41skFg2GT0i2X3iM6ZBZuI+I9PF2k2xelHodTRYUN26p7KclZ+lTNsZsMm1BxYga1S+w9/8JcxpHTY5PgfG2qmccGVGZGzzWzYjIqrkM3XaLviz70zhpQOG2IBXGmqCveE0Vn+cwnYjJovIQW20Segn4TiT4cNeeKRXCPiMpjK20XNbFjdvxGs30bblX4SOlSNbM7Zfr9fvdjQkkT0JbEPKK36Zjbs3HMhYajRJ5jvyAyBptXQN3QKF7Lov5nxyfo77po1Oatunmz464kqJaawFwH0gRYbvDx+SJiVPWjBb0zJleZeRcTTU/IJsEcFNK0WG8KCLHpW3exlFCvAbfpISE1SSU7B+7TB6qxkQ1QcCUmwTjNW50o2NKdeVgIblSCUmn9TyYbPIWUtMsxGyZPmDJk9V7wpUPIJPurY0I1Y4REIq/3Bqrhcg82VHWnP3bkOlIJQeO5yT5r+bwbZHGfzJ9AUuTxyrkyXjifN3aXNBH4qRQBD4fumFJIhdc13kA0G+jQbWeGuvh812HBTzwa8u6YShCJzTxcx9xOIsJINuxygPxAvyMZWWWlrdvBCDvLJwwpOH1j41dFBZEtK2bAeIvj6QKxTxQnmNX/C97pWqnkAToCq2SDfQsqGvU8A1tSM/2Q9eOGYClJOqRh/6VBVs1lWs2FvrQOxU7JRagnA37JIJdn9CsOUN5yq2GywEuHkPz/pAkAllL9QOrPkL9klgj5VC0LRcTCb5RACnPWFzC/wHGPmh2BYykatDRafL55IbpIpycbPN4aNIWA2qqVgeMWfSdio1nFZz54wmy8RF0Mqf0HCxZS9hE0/y85KwKubQnMJ94i+m8fpB4R7sJGETW8Lz/IQVlUuu+Ple5aqEC70jGX3ln3PUhW8hVmsND4w0MO6eRUQSjcVFp9wpbS3xVo5CK+hUNqCadO/Eo1S8PEZFOYXllofmuooQLg6iOwm/uX0q6RhJfj6USTaxAmHP5KsyvkDN2ot58zPDfdTtQV20kcQxwoZr+pvJKvC8MyNC43O9icqqv/G7QgSKt3+RkSn/Ad5q5wmNUT4LAAAAABJRU5ErkJggg==">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- header section  -->
+    <header>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM0AAAD2CAMAAABC3/M1AAAAflBMVEX///8AAAC9vb3S0tJsbGw6Ojr19fXGxsaJiYn6+vrh4eHY2NhJSUnx8fHu7u6jo6ORkZHn5+ewsLB6enoiIiK1tbWXl5dUVFRCQkI0NDRkZGSioqLV1dUvLy/CwsIdHR1ZWVl/f38ODg5qamp7e3sLCwsnJycYGBhGRkZWVlbcp5+rAAANxklEQVR4nN1dCXeqOhAWN0CrKK6VWsW2evv//+ATszBZgASy0Ped8855t7UhnySzZTIzGNjDNHoPgsdxvNqNYouPcYPpLShxHicz3xPqhEPAYbsZLnxPqi12PJkX/iVT3xNrg5mUTIHfoe+5aWNeSabAZu57fjpYRrVknjjufM9RFTth/0ux+gM7qPm1lMiXvmdbj/VGnUuBqMfvZznW41Jg1VczYa/PpUDqe94yzLftyDytnv7ZPKu2XArsfc+exeKtC5kgmPTp9Yy6cSmQ+OZAITcwNXHyzQIjMUHmudp6oXtaCmYR2x6YBqkpMk94pxMaJBP8ePZNq52yVnj3SiZubQBUwKtka2FmNsCj1fZpnIxPSWCBTHD1RaaTpVmJ0A+ZqRUywd0PG40IgBa8hHMsvZoguPhgY8jYlGDkgc3EGhsPKtSwTcPAvW+QWWTjXg50jATUwv1Ss0gmCFyHDA0ENmrw4ZiNPflcwHUEJ7fKZuyYzT+rbFz7oA+rbALHbH7sslm7ZWOXjGMnx5oBjeH2FH5hmU3mlM3SMpvof8Umd8pmbZnN5n/Fxq0xUM3mtj3fH7fKXyvCrU8gYXON0s/ZFNnycTydhWl0urRlc/XJZjOsUt7zXd4m8n7wxea8b8rPmoar4994N6qpZtPRXsf3drtvlm2eGoeRatjqy9bEpSBszrp/OB1uVMxvt/qG2mlt/nj9uWpy9tyyoTZ02+hKPEvzmo3k1rKJyWM7JcjEi49hGm1Oh8n9Pvkdb1bp6I6GdWt1Um/NdAQcD7syPGwDyFY27FaRMJ3jHK+HnceSNBfHR9PEXDG8Xa92XnkT3vFjDSttYnx/mh22CUS6aqvPWlCDyfHB9Ik81+ioNG/P8WHhd1f1WT+q42sT9HjdaFSSGqWOs1b3Nr7FMuboNnK7/CLPNSlLy9Q9p+e4IJfTZFSyHDZzeFYI7XmTFtUVjOvMGngHDzXqJcJxXRme38xDDapPLqHCiQYlzzxm4WwxGhmUpVwy8tbcyNXYWPvmwiiK8ud/RF66OGc3r2ZEoG/MgZODDEPL8S6kRh2EOkZO5OePaXFZAaSvLXtT8f/q3axd7ZuZC9U2fD3ERZra60GWTyRQRr8LtwD50FatQhx7tPkIgpX9jfPpSgiQ0gFWs5Su7uy0wfn1LItxiLW7hUbSBv/ZewCyaxwF1qeWDXZspLsKdESmHRsWKHDzZmt4HvjlWFLVqTt3AGFvcS3gr8rlUeHNnpTGzqDL/G4c+LKQtvwROPE4WOCrkebvziJldjQ+bi2wJWXcBcUp8K5rEe2sKB2chuD2fL0AMqV/zA46di8CELAxZdT+wCfSPi4VWlA6Wx8iAONu+tmZWwONxciw0llYWLsaMKx0Tr5EAIJZpYPtC391/IwqHSQC3KanskBV7G4mhsIi0vHFGwbmlM7SrwhA2Juyq35f4zwMTKkL0GqfdB0GV/hwnCwkwIzSiVG629XEjDrBiNLJ/YsABOzHdwqx4MqrjpM5pcBKp4vvizaflwoWAg5d1xoWjD4KWIjAquK37d/j2Kbru9FVyLrJtYlfa1PAsYtIWvm2NnlgA6dVZBorrKvZGXUCXmttwq3oLz2USanBoa2YfuvbOitAMjJ1zc+8/Uu1CZKSqad1cGjTU1muGmDRdNYRtOQr8G+fCcBJme/qdMj1FN9+gAykPuRElQ4+3OhbPWUMcs/wXU3akjfTNwlAQDI+byr7gFyA8BmkqUV53bhZfZDi+H6CzioAGezj+tU2v/eezOAeANSYBYuya0GvDBoGXHL2tuIYZp2DD/mNn9UB6c/rCcxVOLyIh1yTj344nBJcsACAxbzvm3S0fC2neDobrsR+JUaivhaA9cdTd87P3JQv2+2WL9URYdI9VTdoayPvvrHW+nFOPVZPdW3rETNzi2v5TF6fIrZDH+Ua1u3033HCrzeCMdn5ONupL50IIJATyUjcWSZ2KctDYJS29lhtAysbwUIbFfUD3t7Px7dxlITcoiIVJHrn36Dgum40GuWk9873nLWUT/iEoS9xTgQswfTvZuGDm+DQn5YxtIBvi+1M28ydesFnWdaKb3VqWRZlPfjWo9PdLxC/7UJ8oEPDPfMn3aafbKuItlqQqdRzzHysuFkmlAtqOxRfw/AROV1y61Tav6PtHGT9Jg97J47Pejeuqu7WNhW/qhvgb/Zh0yCdZ9faOnXt3OLa1ibHKLTQpmQarhRKn7WpNdDc3OiySQ1mFC+HuWo1RP23o9pD6ysxcE1iPfy+Nz8KPFRv+JFWi4ZT0uUdjVZVDlc1zhr6b/3VPB6Hx+az1dn1SLPxKIVqNnPctkfLdadJKE46VBpXM+87NZ371jAY6kMUzXg0a75htydomNy7zlVqm2Tb2kTbDCX5uVDrn9yAS530MdTZ8NZsSnVeAgSVyWZLc41zmm62tBVkElS0uzXa2PCtzpCb6hbXrYfM0DHZcvKJS7UVtzbdMuEqKAbDZILq3nn1fe3bgRMGxnYlgJyOnUZQqfVHbGWWga1+CVDu6Jt9KrhK2FhrOFY+zFbjLDEZxHynTgqS32Cv9wevC4y0hK4CDk0Za24sgItIWG6ZguwCiw2A2HRfi+vshcIL/mj+WHtAuWZD0zAoloKd3qYYUBAYMZtrEdptngdfjt1OcC982e7NlEhfTfThud+2OuJZWgoWetgIulhM/gwVjJxOnViEZezEYsUdW6CyhTjWpR/gvUd9CxCLDKcflTKgv8liNaC+LFpq5UJzXQ3DDMjskadbmumep9USJLvvZdwCieZ7Xu1AxVqhQHd/nQ0NMxV+QSmxLdTacQGaR1qE84H51ItsCm3Q86XCZy/J9DMnsRF0+r9sqzHXvXWNoMw2uLD285/UnoAAGxC4+p5ZG4CA45oJPbjuFGwEgMAICugeXe7VADjV+Bwwx8J/0YYGxxoJ6627bn9uAmD6KzY07KPUV0fASGDEhux08mRmYZqmiVljaJE8xwy1TBJ47JCzPbvVE3mJU2TWGCJT01B8ITN9SEb9fh/dbZjN7DTGiKIsBSnp+de4xGk4iOn/F7+N8G9Pa5aNxkXDBEz/yrJRzWcuh8Bs+IjcgbixTAOTYiXTfVoQCOA/IBv1XGQYQX3jYnaKCqfcbBVsaCiVPRVKgP0+AmxILcaSjXIuPrhXFhy5XvdqCUzgGK6SDU4nFthQ1f0JWjeSEwuwpVUVOXzAZMBmoaj5BGUQ/rKuZHORs6F2YQbsd5J7vC6z+hTFSwzn/84dqqgtVzL3RPgJxFzKhn4TEfh/kPdBThMVFTmTfbwdsDmOaqIRz/0o/OS5G6a0189QZJOBx4+BdIWOFZYbignEzFnNbcAm0aopHDwLcBuQsgnL6SaQTXkxh/z6CFIh4NTHWmyYBIQbJ0LVfIKR8CIBGyoi9nI2xEr8ARIBbpKNFhuoboLHgMusURoirGNDDaeVnM13+SgaZYUCLNdiw2Q5XfhjNaXk8BRMV5sNfSFLeedGTFHxvgjsafaUAlD7BIqhaPz1gb0rYxPJ2dCtP6Prgjlo2YO/bgbjAtz5hDQVhUP2Ofj6NNhQDTmikTDmcjFRSErWOdW/L5zJ90zQ7BPsqGUEDIdGNo/DE6j+CPn9jmpuJs2QsP1ZKXhb7GWXyYBLSm5+wfSjUP41skFg2GT0i2X3iM6ZBZuI+I9PF2k2xelHodTRYUN26p7KclZ+lTNsZsMm1BxYga1S+w9/8JcxpHTY5PgfG2qmccGVGZGzzWzYjIqrkM3XaLviz70zhpQOG2IBXGmqCveE0Vn+cwnYjJovIQW20Segn4TiT4cNeeKRXCPiMpjK20XNbFjdvxGs30bblX4SOlSNbM7Zfr9fvdjQkkT0JbEPKK36Zjbs3HMhYajRJ5jvyAyBptXQN3QKF7Lov5nxyfo77po1Oatunmz464kqJaawFwH0gRYbvDx+SJiVPWjBb0zJleZeRcTTU/IJsEcFNK0WG8KCLHpW3exlFCvAbfpISE1SSU7B+7TB6qxkQ1QcCUmwTjNW50o2NKdeVgIblSCUmn9TyYbPIWUtMsxGyZPmDJk9V7wpUPIJPurY0I1Y4REIq/3Bqrhcg82VHWnP3bkOlIJQeO5yT5r+bwbZHGfzJ9AUuTxyrkyXjifN3aXNBH4qRQBD4fumFJIhdc13kA0G+jQbWeGuvh812HBTzwa8u6YShCJzTxcx9xOIsJINuxygPxAvyMZWWWlrdvBCDvLJwwpOH1j41dFBZEtK2bAeIvj6QKxTxQnmNX/C97pWqnkAToCq2SDfQsqGvU8A1tSM/2Q9eOGYClJOqRh/6VBVs1lWs2FvrQOxU7JRagnA37JIJdn9CsOUN5yq2GywEuHkPz/pAkAllL9QOrPkL9klgj5VC0LRcTCb5RACnPWFzC/wHGPmh2BYykatDRafL55IbpIpycbPN4aNIWA2qqVgeMWfSdio1nFZz54wmy8RF0Mqf0HCxZS9hE0/y85KwKubQnMJ94i+m8fpB4R7sJGETW8Lz/IQVlUuu+Ple5aqEC70jGX3ln3PUhW8hVmsND4w0MO6eRUQSjcVFp9wpbS3xVo5CK+hUNqCadO/Eo1S8PEZFOYXllofmuooQLg6iOwm/uX0q6RhJfj6USTaxAmHP5KsyvkDN2ot58zPDfdTtQV20kcQxwoZr+pvJKvC8MyNC43O9icqqv/G7QgSKt3+RkSn/Ad5q5wmNUT4LAAAAABJRU5ErkJggg=="
+            alt="">
+        <ul>
+            <li><a href=""><i class="fa-solid fa-home"></i> Home</a></li>
+            <li><a href=""><i class="fa-solid fa-user"></i> About</a></li>
+            <li><a href=""><i class="fa-solid fa-laptop"></i> Projects</a></li>
+            <li><a href=""><i class="fa-solid fa-address-card"></i> Contact</a></li>
+            <li><a href=""><i class="fa-solid fa-handshake-angle"></i> Services</a></li>
+        </ul>
+
+    </header>
+
+
+
+    <!-- banner img selection -->
+    <section id="banner">
+
+        <img src="./a11.jpg" alt="" width="100%" height="800px">
+
+        <div id="welcome">
+            <h1>Welcome to my portfolio 😊</h1>
+        </div>
+
+        <div class="row">
+            <div class="column image-container">
+                <img src="g.jpg" alt="">
+            </div>
+            <div class="column text-container">
+                <p><em>I am Inshaf CK</em></p>
+            </div>
+        </div>
+
+
+
+        <div class="cnt">
+            <div class="about-text">
+                <h1>About Me 💻</h1>
+                <!-- Inshaf Details  -->
+                <p>As a dedicated MERN stack developer, I specialize in crafting dynamic and responsive web applications
+                    using MongoDB, Express.js, React, and Node.js. With a strong foundation in both front-end and
+                    back-end technologies, I build seamless, full-stack solutions that are both scalable and
+                    maintainable. My expertise lies in designing intuitive user interfaces with React, developing robust
+                    server-side logic with Node.js and Express, and managing complex data with MongoDB. Committed to
+                    leveraging the latest industry practices and tools, I ensure that each project I undertake not only
+                    meets but exceeds client expectations. My passion for continuous learning and problem-solving drives
+                    me to stay updated with emerging trends, enabling me to deliver innovative solutions that push the
+                    boundaries of modern web development.</p>
+            </div>
+            <div class="about-image">
+                <img src="./c.jpg" alt="About Image">
+            </div>
+
+    </section>
+    <section>
+        <div class="pro">
+            <h1>Projects 💻</h1>
+
+            <div class="row">
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="./p.jpg" alt="img" style="width:300px;height:200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>My Project</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis delectus
+                                    est
+                                    eos repellat dolor, excepturi repellendus veniam saepe. Nulla illo tempora omnis
+                                    autem
+                                    fugiat iure dolores id. Quas, eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="ser">
+            <h1>Services 💻</h1>
+            <div class="row">
+                <div class="col cls">
+                    <img src="Custom Web Development.jpg" alt="" height="150px" width="100%">
+                    <h3>Custom Web Development</h3>
+                    <p>As a web developer, I offer tailored web development services that transform your unique ideas
+                        into functional, high-performance websites. Whether you're looking for a simple informational
+                        site or a complex e-commerce platform, I leverage the latest technologies and best practices to
+                        create custom solutions that align with your business objectives and engage your target audience
+                        effectively.</p>
+                </div>
+                <div class="col cls">
+                    <img src="frontend.jpg" alt="" height="150px" width="100%">
+                    <h3>Front-End Development</h3>
+                    <p> I specialize in building visually stunning and responsive user interfaces that enhance user
+                        experience across all devices and screen sizes. By utilizing modern HTML, CSS, and JavaScript
+                        frameworks such as React or Vue.js, I ensure that your website not only looks great but also
+                        performs seamlessly, providing an intuitive and interactive experience for your users.</p>
+                </div>
+                <div class="col cls">
+                    <img src="backend.jpg" alt="" height="150px" width="100%">
+                    <h3>Back-End Development</h3>
+                    <p>My back-end development services focus on creating robust server-side applications and databases
+                        that power your website’s functionality. Using technologies like Node.js, Express.js, and
+                        various database systems, I design and implement secure, scalable solutions that handle data
+                        processing, user authentication, and server logic efficiently, ensuring a reliable and smooth
+                        operation.</p>
+                </div>
+                <div class="col cls">
+                    <img src="Website Maintenance and Support.jpg" alt="" height="150px" width="100%">
+                    <h3>Website Maintenance and Support:</h3>
+                    <p>Ongoing maintenance and support are crucial for keeping your website running smoothly and
+                        securely. I offer services such as regular updates, performance optimization, bug fixes, and
+                        security enhancements to ensure your site remains up-to-date and free from vulnerabilities,
+                        providing you with peace of mind and uninterrupted service.</p>
+                </div>
+                <div class="col cls">
+                    <img src="seo.jpg" alt="" height="150px" width="100%">
+                    <h3>SEO Optimization:</h3>
+                    <p>To boost your website's visibility and drive organic traffic, I implement SEO best practices
+                        tailored to your specific industry and audience. From optimizing on-page elements like meta tags
+                        and content to improving site speed and mobile usability, I work to enhance your search engine
+                        rankings and increase your online presence effectively.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="contact-form">
+            <h1>Contact Me ☎️</h1>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <textarea name="message" placeholder="Enter a Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

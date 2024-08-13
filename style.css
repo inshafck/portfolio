@@ -1,0 +1,265 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Gupter", serif; */
+}
+
+body{
+    background-color: rgb(69, 69, 69);
+    color: rgb(196, 201, 206);
+}
+
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid rgb(23, 21, 23);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+header ul li {
+    margin: 10px ;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: small;
+}
+
+i{
+    margin: 5px;
+}
+header ul li :hover {
+    text-shadow: 7px 6px 9px;
+    color: rgb(28, 24, 29);
+
+
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px double wheat;
+    padding: 5px;
+    margin: 5px 10px;
+    
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+   
+
+}
+
+#welcome{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    border: 2px double wheat;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.27);
+    /* font-family: "Oswald", sans-serif; */
+
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+}
+
+.image-container img {
+    height: auto;
+    width: auto;
+}
+
+.text-container {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+
+.cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-text h1{
+    align-content: center;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 5px;
+    padding-top: auto;
+}
+
+
+.pro{
+    margin-top: 2000px;
+}
+
+
+.ser{
+    margin-top: 180px;
+}
+
+
+
+
+
+
+
+
+.col1{
+    padding: 40px;
+}
+
+.col p{
+    text-align: justify;
+
+}
+
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.cls{
+    width: 150px;
+    border: 2px solid wheat;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 250px;
+}
+
+.contact-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;  
+}
+
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px ;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    
+    cursor: pointer;
+    width: 100%;
+}
